@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from warehouse_interfaces/srv/LoadPackage.srv
+// generated code does not contain a copyright notice
+
+
+module warehouse_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct LoadPackage_Request {
+      string package_id;
+
+      float weight;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct LoadPackage_Response {
+      boolean accepted;
+
+      string message;
+
+      uint8 total_packages;
+    };
+  };
+};

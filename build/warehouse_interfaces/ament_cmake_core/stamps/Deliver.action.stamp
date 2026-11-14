@@ -1,0 +1,12 @@
+#Goal
+string destination
+float32 distance
+float32 speed
+---
+#Result
+bool success
+float32 time_taken
+---
+#Feedback
+float32 remaining_distance
+float32 percent

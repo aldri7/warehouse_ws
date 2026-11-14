@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating warehouse_nodes.egg-info
+writing warehouse_nodes.egg-info/PKG-INFO
+writing dependency_links to warehouse_nodes.egg-info/dependency_links.txt
+writing entry points to warehouse_nodes.egg-info/entry_points.txt
+writing requirements to warehouse_nodes.egg-info/requires.txt
+writing top-level names to warehouse_nodes.egg-info/top_level.txt
+writing manifest file 'warehouse_nodes.egg-info/SOURCES.txt'
+reading manifest file 'warehouse_nodes.egg-info/SOURCES.txt'
+writing manifest file 'warehouse_nodes.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aldrin/warehouse_ws/install/warehouse_nodes/lib/python3.12/site-packages/warehouse-nodes.egg-link (link to .)
+Installing deliver_client script to /home/aldrin/warehouse_ws/install/warehouse_nodes/lib/warehouse_nodes
+Installing deliver_server script to /home/aldrin/warehouse_ws/install/warehouse_nodes/lib/warehouse_nodes
+Installing warehouse__publisher script to /home/aldrin/warehouse_ws/install/warehouse_nodes/lib/warehouse_nodes
+Installing warehouse__subscriber script to /home/aldrin/warehouse_ws/install/warehouse_nodes/lib/warehouse_nodes
+
+Installed /home/aldrin/warehouse_ws/build/warehouse_nodes
+running symlink_data
+creating /home/aldrin/warehouse_ws/install/warehouse_nodes/share/ament_index
+creating /home/aldrin/warehouse_ws/install/warehouse_nodes/share/ament_index/resource_index
+creating /home/aldrin/warehouse_ws/install/warehouse_nodes/share/ament_index/resource_index/packages
+symbolically linking /home/aldrin/warehouse_ws/build/warehouse_nodes/resource/warehouse_nodes -> /home/aldrin/warehouse_ws/install/warehouse_nodes/share/ament_index/resource_index/packages
+symbolically linking /home/aldrin/warehouse_ws/build/warehouse_nodes/package.xml -> /home/aldrin/warehouse_ws/install/warehouse_nodes/share/warehouse_nodes

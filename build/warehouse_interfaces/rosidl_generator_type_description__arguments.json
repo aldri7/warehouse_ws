@@ -1,0 +1,15 @@
+{
+  "package_name": "warehouse_interfaces",
+  "output_dir": "/home/aldrin/warehouse_ws/build/warehouse_interfaces/rosidl_generator_type_description/warehouse_interfaces",
+  "idl_tuples": [
+    "/home/aldrin/warehouse_ws/build/warehouse_interfaces/rosidl_adapter/warehouse_interfaces:msg/DeliveryStatus.idl",
+    "/home/aldrin/warehouse_ws/build/warehouse_interfaces/rosidl_adapter/warehouse_interfaces:srv/LoadPackage.idl",
+    "/home/aldrin/warehouse_ws/build/warehouse_interfaces/rosidl_adapter/warehouse_interfaces:action/Deliver.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

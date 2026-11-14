@@ -1,0 +1,8 @@
+#Request
+string package_id
+float32 weight
+---
+#Response
+bool accepted
+string message
+uint8 total_packages

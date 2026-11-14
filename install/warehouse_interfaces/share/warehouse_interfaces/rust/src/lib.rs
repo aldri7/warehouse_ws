@@ -1,0 +1,1 @@
+/home/aldrin/warehouse_ws/build/warehouse_interfaces/rosidl_generator_rs/warehouse_interfaces/rust/src/lib.rs

@@ -1,0 +1,387 @@
+[0.000000] (-) TimerEvent: {}
+[0.000219] (-) JobUnselected: {'identifier': 'warehouse_nodes'}
+[0.000262] (warehouse_interfaces) JobQueued: {'identifier': 'warehouse_interfaces', 'dependencies': OrderedDict()}
+[0.000292] (warehouse_interfaces) JobStarted: {'identifier': 'warehouse_interfaces'}
+[0.009511] (warehouse_interfaces) JobProgress: {'identifier': 'warehouse_interfaces', 'progress': 'cmake'}
+[0.010533] (warehouse_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/aldrin/warehouse_ws/src/warehouse_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/aldrin/warehouse_ws/install/warehouse_interfaces'], 'cwd': '/home/aldrin/warehouse_ws/build/warehouse_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2982-10-aldrin-LOQ-15IRX9_TIME31835318', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aldrin', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aldrin', 'OLDPWD': '/home/aldrin/warehouse_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2687', 'SYSTEMD_EXEC_PID': '2982', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '211505', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aldrin', 'JOURNAL_STREAM': '10:13265', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aldrin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aldrin-LOQ-15IRX9:@/tmp/.ICE-unix/2924,unix/aldrin-LOQ-15IRX9:/tmp/.ICE-unix/2924', 'INVOCATION_ID': '8461c72f5fb64da099e5362d17e75918', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YS2XY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '77', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:e0f2b105-a88c-47de-a167-64639fa17145', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aldrin/warehouse_ws/build/warehouse_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.082205] (warehouse_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099303] (-) TimerEvent: {}
+[0.152121] (warehouse_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.170698] (warehouse_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199483] (-) TimerEvent: {}
+[0.283411] (warehouse_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.296688] (warehouse_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.296986] (warehouse_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.297359] (warehouse_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.299608] (-) TimerEvent: {}
+[0.310372] (warehouse_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399831] (-) TimerEvent: {}
+[0.438882] (warehouse_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.450050] (warehouse_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.450340] (warehouse_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.450973] (warehouse_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.453355] (warehouse_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.500040] (-) TimerEvent: {}
+[0.600428] (-) TimerEvent: {}
+[0.617766] (warehouse_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.700304] (warehouse_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.700632] (-) TimerEvent: {}
+[0.726751] (warehouse_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.731321] (warehouse_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.777721] (warehouse_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800802] (-) TimerEvent: {}
+[0.824597] (warehouse_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.900929] (-) TimerEvent: {}
+[1.001275] (-) TimerEvent: {}
+[1.101535] (-) TimerEvent: {}
+[1.201857] (-) TimerEvent: {}
+[1.302195] (-) TimerEvent: {}
+[1.402513] (-) TimerEvent: {}
+[1.502824] (-) TimerEvent: {}
+[1.579466] (warehouse_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.603045] (-) TimerEvent: {}
+[1.703454] (-) TimerEvent: {}
+[1.803856] (-) TimerEvent: {}
+[1.904268] (-) TimerEvent: {}
+[2.004590] (-) TimerEvent: {}
+[2.086386] (warehouse_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.104803] (-) TimerEvent: {}
+[2.205209] (-) TimerEvent: {}
+[2.305726] (-) TimerEvent: {}
+[2.406034] (-) TimerEvent: {}
+[2.506404] (-) TimerEvent: {}
+[2.606767] (-) TimerEvent: {}
+[2.707136] (-) TimerEvent: {}
+[2.776805] (warehouse_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.779301] (warehouse_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.807306] (-) TimerEvent: {}
+[2.907541] (-) TimerEvent: {}
+[2.944171] (warehouse_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.007637] (-) TimerEvent: {}
+[3.107907] (-) TimerEvent: {}
+[3.208241] (-) TimerEvent: {}
+[3.308585] (-) TimerEvent: {}
+[3.408925] (-) TimerEvent: {}
+[3.447617] (warehouse_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.509090] (-) TimerEvent: {}
+[3.518771] (warehouse_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.530778] (warehouse_interfaces) StdoutLine: {'line': b'-- Configuring done (3.5s)\n'}
+[3.570197] (warehouse_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.582252] (warehouse_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/aldrin/warehouse_ws/build/warehouse_interfaces\n'}
+[3.591710] (warehouse_interfaces) CommandEnded: {'returncode': 0}
+[3.592210] (warehouse_interfaces) JobProgress: {'identifier': 'warehouse_interfaces', 'progress': 'build'}
+[3.592965] (warehouse_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aldrin/warehouse_ws/build/warehouse_interfaces', '--', '-j20', '-l20'], 'cwd': '/home/aldrin/warehouse_ws/build/warehouse_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2982-10-aldrin-LOQ-15IRX9_TIME31835318', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aldrin', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aldrin', 'OLDPWD': '/home/aldrin/warehouse_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2687', 'SYSTEMD_EXEC_PID': '2982', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '211505', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aldrin', 'JOURNAL_STREAM': '10:13265', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aldrin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aldrin-LOQ-15IRX9:@/tmp/.ICE-unix/2924,unix/aldrin-LOQ-15IRX9:/tmp/.ICE-unix/2924', 'INVOCATION_ID': '8461c72f5fb64da099e5362d17e75918', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YS2XY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '77', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:e0f2b105-a88c-47de-a167-64639fa17145', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aldrin/warehouse_ws/build/warehouse_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.609253] (-) TimerEvent: {}
+[3.662961] (warehouse_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[3.663231] (warehouse_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[3.672358] (warehouse_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_warehouse_interfaces\n'}
+[3.709480] (-) TimerEvent: {}
+[3.809930] (-) TimerEvent: {}
+[3.910375] (-) TimerEvent: {}
+[3.964647] (warehouse_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.966076] (warehouse_interfaces) StdoutLine: {'line': b'creating warehouse_interfaces.egg-info\n'}
+[3.988157] (warehouse_interfaces) StdoutLine: {'line': b'writing warehouse_interfaces.egg-info/PKG-INFO\n'}
+[3.988571] (warehouse_interfaces) StdoutLine: {'line': b'writing dependency_links to warehouse_interfaces.egg-info/dependency_links.txt\n'}
+[3.988778] (warehouse_interfaces) StdoutLine: {'line': b'writing top-level names to warehouse_interfaces.egg-info/top_level.txt\n'}
+[3.988870] (warehouse_interfaces) StdoutLine: {'line': b"writing manifest file 'warehouse_interfaces.egg-info/SOURCES.txt'\n"}
+[4.010535] (-) TimerEvent: {}
+[4.055435] (warehouse_interfaces) StdoutLine: {'line': b'[  3%] Built target warehouse_interfaces__rosidl_generator_type_description\n'}
+[4.057433] (warehouse_interfaces) StdoutLine: {'line': b"reading manifest file 'warehouse_interfaces.egg-info/SOURCES.txt'\n"}
+[4.058216] (warehouse_interfaces) StdoutLine: {'line': b"writing manifest file 'warehouse_interfaces.egg-info/SOURCES.txt'\n"}
+[4.071586] (warehouse_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.089652] (warehouse_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.099141] (warehouse_interfaces) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_warehouse_interfaces_egg\n'}
+[4.110743] (-) TimerEvent: {}
+[4.144561] (warehouse_interfaces) StdoutLine: {'line': b'[  7%] Built target warehouse_interfaces__rs\n'}
+[4.210963] (-) TimerEvent: {}
+[4.311380] (-) TimerEvent: {}
+[4.411846] (-) TimerEvent: {}
+[4.512269] (-) TimerEvent: {}
+[4.612714] (-) TimerEvent: {}
+[4.713041] (-) TimerEvent: {}
+[4.777545] (warehouse_interfaces) StdoutLine: {'line': b'[  7%] Built target warehouse_interfaces__cpp\n'}
+[4.813510] (-) TimerEvent: {}
+[4.858684] (warehouse_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/srv/detail/load_package__functions.c.o\x1b[0m\n'}
+[4.859272] (warehouse_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/srv/detail/load_package__type_support.c.o\x1b[0m\n'}
+[4.859739] (warehouse_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/action/detail/deliver__description.c.o\x1b[0m\n'}
+[4.859963] (warehouse_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/action/detail/deliver__functions.c.o\x1b[0m\n'}
+[4.860300] (warehouse_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/msg/detail/delivery_status__description.c.o\x1b[0m\n'}
+[4.860706] (warehouse_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/action/detail/deliver__type_support.c.o\x1b[0m\n'}
+[4.860935] (warehouse_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/msg/detail/delivery_status__functions.c.o\x1b[0m\n'}
+[4.861058] (warehouse_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/msg/detail/delivery_status__type_support.c.o\x1b[0m\n'}
+[4.861674] (warehouse_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/srv/detail/load_package__description.c.o\x1b[0m\n'}
+[4.913670] (-) TimerEvent: {}
+[5.014134] (-) TimerEvent: {}
+[5.095288] (warehouse_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libwarehouse_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.114332] (-) TimerEvent: {}
+[5.145045] (warehouse_interfaces) StdoutLine: {'line': b'[ 25%] Built target warehouse_interfaces__rosidl_generator_c\n'}
+[5.159112] (warehouse_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.159760] (warehouse_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.160091] (warehouse_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.160778] (warehouse_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.161433] (warehouse_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.162834] (warehouse_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.214567] (-) TimerEvent: {}
+[5.314974] (-) TimerEvent: {}
+[5.415467] (-) TimerEvent: {}
+[5.515871] (-) TimerEvent: {}
+[5.616336] (-) TimerEvent: {}
+[5.716734] (-) TimerEvent: {}
+[5.724871] (warehouse_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/warehouse_interfaces/msg/delivery_status__type_support.cpp.o\x1b[0m\n'}
+[5.725226] (warehouse_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/warehouse_interfaces/srv/load_package__type_support.cpp.o\x1b[0m\n'}
+[5.726124] (warehouse_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/warehouse_interfaces/action/deliver__type_support.cpp.o\x1b[0m\n'}
+[5.743580] (warehouse_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/warehouse_interfaces/action/deliver__type_support.cpp.o\x1b[0m\n'}
+[5.746530] (warehouse_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/warehouse_interfaces/msg/delivery_status__type_support.cpp.o\x1b[0m\n'}
+[5.746979] (warehouse_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/warehouse_interfaces/srv/load_package__type_support.cpp.o\x1b[0m\n'}
+[5.813584] (warehouse_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX shared library libwarehouse_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.816883] (-) TimerEvent: {}
+[5.838841] (warehouse_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/msg/detail/delivery_status__type_support.cpp.o\x1b[0m\n'}
+[5.843315] (warehouse_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/load_package__type_support.cpp.o\x1b[0m\n'}
+[5.843830] (warehouse_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver__type_support.cpp.o\x1b[0m\n'}
+[5.879284] (warehouse_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/warehouse_interfaces/action/detail/deliver__type_support.c.o\x1b[0m\n'}
+[5.882618] (warehouse_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/warehouse_interfaces/msg/detail/delivery_status__type_support.c.o\x1b[0m\n'}
+[5.883120] (warehouse_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/warehouse_interfaces/srv/detail/load_package__type_support.c.o\x1b[0m\n'}
+[5.898007] (warehouse_interfaces) StdoutLine: {'line': b'[ 60%] Built target warehouse_interfaces__rosidl_typesupport_c\n'}
+[5.917061] (-) TimerEvent: {}
+[5.988614] (warehouse_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libwarehouse_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.017242] (-) TimerEvent: {}
+[6.056996] (warehouse_interfaces) StdoutLine: {'line': b'[ 61%] Built target warehouse_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.117436] (-) TimerEvent: {}
+[6.174170] (warehouse_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/warehouse_interfaces/action/detail/dds_fastrtps/deliver__type_support.cpp.o\x1b[0m\n'}
+[6.177785] (warehouse_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/warehouse_interfaces/srv/detail/dds_fastrtps/load_package__type_support.cpp.o\x1b[0m\n'}
+[6.178221] (warehouse_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/warehouse_interfaces/msg/detail/dds_fastrtps/delivery_status__type_support.cpp.o\x1b[0m\n'}
+[6.179467] (warehouse_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/warehouse_interfaces/action/detail/deliver__type_support_c.cpp.o\x1b[0m\n'}
+[6.183117] (warehouse_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/warehouse_interfaces/msg/detail/delivery_status__type_support_c.cpp.o\x1b[0m\n'}
+[6.183763] (warehouse_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/warehouse_interfaces/srv/detail/load_package__type_support_c.cpp.o\x1b[0m\n'}
+[6.217545] (-) TimerEvent: {}
+[6.317983] (-) TimerEvent: {}
+[6.418478] (-) TimerEvent: {}
+[6.518983] (-) TimerEvent: {}
+[6.619498] (-) TimerEvent: {}
+[6.719951] (-) TimerEvent: {}
+[6.820464] (-) TimerEvent: {}
+[6.920888] (-) TimerEvent: {}
+[7.021362] (-) TimerEvent: {}
+[7.035687] (warehouse_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.113459] (warehouse_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libwarehouse_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.121577] (-) TimerEvent: {}
+[7.169733] (warehouse_interfaces) StdoutLine: {'line': b'[ 76%] Built target warehouse_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.202047] (warehouse_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libwarehouse_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.221727] (-) TimerEvent: {}
+[7.245738] (warehouse_interfaces) StdoutLine: {'line': b'[ 78%] Built target warehouse_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.316972] (warehouse_interfaces) StdoutLine: {'line': b'[ 78%] Built target warehouse_interfaces__rosidl_typesupport_cpp\n'}
+[7.321909] (-) TimerEvent: {}
+[7.422260] (-) TimerEvent: {}
+[7.522676] (-) TimerEvent: {}
+[7.623071] (-) TimerEvent: {}
+[7.626872] (warehouse_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libwarehouse_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.711951] (warehouse_interfaces) StdoutLine: {'line': b'[ 80%] Built target warehouse_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.723281] (-) TimerEvent: {}
+[7.736922] (warehouse_interfaces) StdoutLine: {'line': b'[ 80%] Built target warehouse_interfaces\n'}
+[7.763052] (warehouse_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.823480] (-) TimerEvent: {}
+[7.923875] (-) TimerEvent: {}
+[8.024289] (-) TimerEvent: {}
+[8.124709] (-) TimerEvent: {}
+[8.225104] (-) TimerEvent: {}
+[8.325498] (-) TimerEvent: {}
+[8.425911] (-) TimerEvent: {}
+[8.526295] (-) TimerEvent: {}
+[8.626693] (-) TimerEvent: {}
+[8.656391] (warehouse_interfaces) StdoutLine: {'line': b'[ 81%] Built target warehouse_interfaces__py\n'}
+[8.683099] (warehouse_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/srv/_load_package_s.c.o\x1b[0m\n'}
+[8.684888] (warehouse_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/msg/_delivery_status_s.c.o\x1b[0m\n'}
+[8.685393] (warehouse_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_s.c.o\x1b[0m\n'}
+[8.726813] (-) TimerEvent: {}
+[8.827170] (-) TimerEvent: {}
+[8.927654] (-) TimerEvent: {}
+[8.952810] (warehouse_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library libwarehouse_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[9.004123] (warehouse_interfaces) StdoutLine: {'line': b'[ 89%] Built target warehouse_interfaces__rosidl_generator_py\n'}
+[9.027780] (-) TimerEvent: {}
+[9.029704] (warehouse_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.032784] (warehouse_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.033304] (warehouse_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/warehouse_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.128004] (-) TimerEvent: {}
+[9.228425] (-) TimerEvent: {}
+[9.232459] (warehouse_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.232790] (warehouse_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.232959] (warehouse_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.278381] (warehouse_interfaces) StdoutLine: {'line': b'[100%] Built target warehouse_interfaces_s__rosidl_typesupport_c\n'}
+[9.280908] (warehouse_interfaces) StdoutLine: {'line': b'[100%] Built target warehouse_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[9.281413] (warehouse_interfaces) StdoutLine: {'line': b'[100%] Built target warehouse_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[9.296959] (warehouse_interfaces) CommandEnded: {'returncode': 0}
+[9.297957] (warehouse_interfaces) JobProgress: {'identifier': 'warehouse_interfaces', 'progress': 'install'}
+[9.310950] (warehouse_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aldrin/warehouse_ws/build/warehouse_interfaces'], 'cwd': '/home/aldrin/warehouse_ws/build/warehouse_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2982-10-aldrin-LOQ-15IRX9_TIME31835318', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aldrin', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aldrin', 'OLDPWD': '/home/aldrin/warehouse_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2687', 'SYSTEMD_EXEC_PID': '2982', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '211505', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aldrin', 'JOURNAL_STREAM': '10:13265', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aldrin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aldrin-LOQ-15IRX9:@/tmp/.ICE-unix/2924,unix/aldrin-LOQ-15IRX9:/tmp/.ICE-unix/2924', 'INVOCATION_ID': '8461c72f5fb64da099e5362d17e75918', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YS2XY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '77', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:e0f2b105-a88c-47de-a167-64639fa17145', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aldrin/warehouse_ws/build/warehouse_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.319265] (warehouse_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.320105] (warehouse_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.320327] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/ament_index/resource_index/rosidl_interfaces/warehouse_interfaces\n'}
+[9.328515] (-) TimerEvent: {}
+[9.331186] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/msg/DeliveryStatus.json\n'}
+[9.342482] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/srv/LoadPackage.json\n'}
+[9.353783] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/action/Deliver.json\n'}
+[9.364551] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/deliver.h\n'}
+[9.375006] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__functions.h\n'}
+[9.382638] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__struct.h\n'}
+[9.392810] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__type_support.h\n'}
+[9.400431] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/delivery_status.h\n'}
+[9.409864] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__functions.h\n'}
+[9.417425] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__struct.h\n'}
+[9.426587] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__type_support.h\n'}
+[9.428615] (-) TimerEvent: {}
+[9.436053] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.445807] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__functions.h\n'}
+[9.456366] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__struct.h\n'}
+[9.466317] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__type_support.h\n'}
+[9.475446] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/load_package.h\n'}
+[9.483225] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/environment/library_path.sh\n'}
+[9.492868] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/environment/library_path.dsv\n'}
+[9.500910] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__rosidl_typesupport_fastrtps_c.h\n'}
+[9.510193] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__rosidl_typesupport_fastrtps_c.h\n'}
+[9.518258] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.527525] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__rosidl_typesupport_fastrtps_c.h\n'}
+[9.528690] (-) TimerEvent: {}
+[9.537619] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__rosidl_typesupport_introspection_c.h\n'}
+[9.551122] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__rosidl_typesupport_introspection_c.h\n'}
+[9.559768] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.569600] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__rosidl_typesupport_introspection_c.h\n'}
+[9.578062] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/deliver.hpp\n'}
+[9.587329] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__builder.hpp\n'}
+[9.595903] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__struct.hpp\n'}
+[9.603265] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__traits.hpp\n'}
+[9.612743] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__type_support.hpp\n'}
+[9.619959] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/delivery_status.hpp\n'}
+[9.628773] (-) TimerEvent: {}
+[9.629080] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__builder.hpp\n'}
+[9.638993] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__struct.hpp\n'}
+[9.648854] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__traits.hpp\n'}
+[9.658297] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__type_support.hpp\n'}
+[9.667118] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.676186] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__builder.hpp\n'}
+[9.685278] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__struct.hpp\n'}
+[9.694608] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__traits.hpp\n'}
+[9.702490] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__type_support.hpp\n'}
+[9.711868] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/load_package.hpp\n'}
+[9.719913] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.728881] (-) TimerEvent: {}
+[9.729159] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.739186] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.749840] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.759282] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.769101] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.777261] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.785320] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/environment/pythonpath.sh\n'}
+[9.794767] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/environment/pythonpath.dsv\n'}
+[9.803101] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[9.810695] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[9.818998] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[9.827489] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[9.829035] (-) TimerEvent: {}
+[9.838612] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/__init__.py\n'}
+[9.849043] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[9.858772] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.868569] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.877343] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/action/__init__.py\n'}
+[9.886091] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/action/_deliver.py\n'}
+[9.895483] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/action/_deliver_s.c\n'}
+[9.903671] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/msg/__init__.py\n'}
+[9.912981] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/msg/_delivery_status.py\n'}
+[9.920201] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/msg/_delivery_status_s.c\n'}
+[9.928290] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/srv/__init__.py\n'}
+[9.929194] (-) TimerEvent: {}
+[9.938612] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/srv/_load_package.py\n'}
+[9.949447] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/srv/_load_package_s.c\n'}
+[9.960977] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_c.so\n'}
+[9.969740] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[9.978765] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[9.987615] (warehouse_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[9.987888] (warehouse_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[9.988029] (warehouse_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_c.so\n'}
+[9.988502] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/Cargo.toml\n'}
+[9.997598] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/build.rs\n'}
+[10.005688] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/src/action.rs\n'}
+[10.015066] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/src/action/rmw.rs\n'}
+[10.022829] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/src/lib.rs\n'}
+[10.029356] (-) TimerEvent: {}
+[10.030279] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/src/msg.rs\n'}
+[10.040675] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/src/msg/rmw.rs\n'}
+[10.051727] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/src/srv.rs\n'}
+[10.060946] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/src/srv/rmw.rs\n'}
+[10.069792] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/msg/DeliveryStatus.idl\n'}
+[10.078306] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/srv/LoadPackage.idl\n'}
+[10.087635] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/action/Deliver.idl\n'}
+[10.096867] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/msg/DeliveryStatus.msg\n'}
+[10.105118] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/srv/LoadPackage.srv\n'}
+[10.114854] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/action/Deliver.action\n'}
+[10.122747] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/ament_index/resource_index/package_run_dependencies/warehouse_interfaces\n'}
+[10.129535] (-) TimerEvent: {}
+[10.130907] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/ament_index/resource_index/parent_prefix_path/warehouse_interfaces\n'}
+[10.141612] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/environment/ament_prefix_path.sh\n'}
+[10.151882] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/environment/ament_prefix_path.dsv\n'}
+[10.160468] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/environment/path.sh\n'}
+[10.169602] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/environment/path.dsv\n'}
+[10.178186] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/local_setup.bash\n'}
+[10.185899] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/local_setup.sh\n'}
+[10.195417] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/local_setup.zsh\n'}
+[10.203590] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/local_setup.dsv\n'}
+[10.212883] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/package.dsv\n'}
+[10.220576] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/ament_index/resource_index/packages/warehouse_interfaces\n'}
+[10.229344] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[10.229597] (-) TimerEvent: {}
+[10.240425] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.251825] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.261843] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.269850] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.279345] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.287532] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.296982] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[10.304296] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfacesConfig.cmake\n'}
+[10.311997] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfacesConfig-version.cmake\n'}
+[10.321101] (warehouse_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/package.xml\n'}
+[10.329780] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_generator_c.so\n'}
+[10.329923] (-) TimerEvent: {}
+[10.330136] (warehouse_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_generator_c.so" to ""\n'}
+[10.330290] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.330491] (warehouse_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.330625] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[10.330765] (warehouse_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.330828] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_c.so\n'}
+[10.331083] (warehouse_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[10.331166] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.331373] (warehouse_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.331525] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[10.331739] (warehouse_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.331924] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_cpp.so\n'}
+[10.332218] (warehouse_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[10.394021] (warehouse_interfaces) StdoutLine: {'line': b"Listing '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces'...\n"}
+[10.394446] (warehouse_interfaces) StdoutLine: {'line': b"Compiling '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/__init__.py'...\n"}
+[10.394543] (warehouse_interfaces) StdoutLine: {'line': b"Listing '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/action'...\n"}
+[10.394600] (warehouse_interfaces) StdoutLine: {'line': b"Compiling '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/action/__init__.py'...\n"}
+[10.394655] (warehouse_interfaces) StdoutLine: {'line': b"Compiling '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/action/_deliver.py'...\n"}
+[10.394707] (warehouse_interfaces) StdoutLine: {'line': b"Listing '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/msg'...\n"}
+[10.394763] (warehouse_interfaces) StdoutLine: {'line': b"Compiling '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/msg/__init__.py'...\n"}
+[10.394812] (warehouse_interfaces) StdoutLine: {'line': b"Compiling '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/msg/_delivery_status.py'...\n"}
+[10.394861] (warehouse_interfaces) StdoutLine: {'line': b"Listing '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/srv'...\n"}
+[10.394913] (warehouse_interfaces) StdoutLine: {'line': b"Compiling '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/srv/__init__.py'...\n"}
+[10.394962] (warehouse_interfaces) StdoutLine: {'line': b"Compiling '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/srv/_load_package.py'...\n"}
+[10.399784] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_generator_py.so\n'}
+[10.400067] (warehouse_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_generator_py.so" to ""\n'}
+[10.400205] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_cExport.cmake\n'}
+[10.400277] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.400389] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.400597] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.400768] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.400839] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.400902] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[10.400963] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.401022] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_cppExport.cmake\n'}
+[10.401128] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.401182] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.401237] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.401294] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.401350] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[10.401419] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.401500] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_pyExport.cmake\n'}
+[10.401584] (warehouse_interfaces) StdoutLine: {'line': b'-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.403771] (warehouse_interfaces) CommandEnded: {'returncode': 0}
+[10.428918] (warehouse_interfaces) JobEnded: {'identifier': 'warehouse_interfaces', 'rc': 0}
+[10.429693] (-) EventReactorShutdown: {}

@@ -1,0 +1,66 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "warehouse_interfaces/action/Deliver_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "warehouse_interfaces/action/Deliver_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "warehouse_interfaces/action/Deliver_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "time_taken",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "warehouse_interfaces/action/Deliver_GetResult_Response",
+      "hash_string": "RIHS01_82a61248711ec55aecb961bd6405742e2f3b9ef7aa32421eaa75f1c7e6f1c2d1"
+    },
+    {
+      "type_name": "warehouse_interfaces/action/Deliver_Result",
+      "hash_string": "RIHS01_cdbb6d949ae0ddf637a6a7f0f4024727829db7ca4fd08880a4985e0eabe4e913"
+    }
+  ]
+}

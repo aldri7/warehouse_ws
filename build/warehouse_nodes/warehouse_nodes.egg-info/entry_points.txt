@@ -1,0 +1,5 @@
+[console_scripts]
+deliver_client = warehouse_nodes.deliver_client:main
+deliver_server = warehouse_nodes.deliver_server:main
+warehouse__publisher = warehouse_nodes.warehouse_publisher:main
+warehouse__subscriber = warehouse_nodes.warehouse_subscriber:main

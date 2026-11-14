@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from warehouse_interfaces/action/Deliver.action
+// generated code does not contain a copyright notice
+
+
+module warehouse_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct Deliver_Goal {
+      string destination;
+
+      float distance;
+
+      float speed;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Deliver_Result {
+      boolean success;
+
+      float time_taken;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Deliver_Feedback {
+      float remaining_distance;
+
+      float percent;
+    };
+  };
+};

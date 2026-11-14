@@ -1,0 +1,269 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (3.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/aldrin/warehouse_ws/build/warehouse_interfaces
+[  3%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  3%] Built target ament_cmake_python_symlink_warehouse_interfaces
+running egg_info
+creating warehouse_interfaces.egg-info
+writing warehouse_interfaces.egg-info/PKG-INFO
+writing dependency_links to warehouse_interfaces.egg-info/dependency_links.txt
+writing top-level names to warehouse_interfaces.egg-info/top_level.txt
+writing manifest file 'warehouse_interfaces.egg-info/SOURCES.txt'
+[  3%] Built target warehouse_interfaces__rosidl_generator_type_description
+reading manifest file 'warehouse_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'warehouse_interfaces.egg-info/SOURCES.txt'
+[  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  7%] Built target ament_cmake_python_build_warehouse_interfaces_egg
+[  7%] Built target warehouse_interfaces__rs
+[  7%] Built target warehouse_interfaces__cpp
+[  9%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/srv/detail/load_package__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/srv/detail/load_package__type_support.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/action/detail/deliver__description.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/action/detail/deliver__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/msg/detail/delivery_status__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/action/detail/deliver__type_support.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/msg/detail/delivery_status__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/msg/detail/delivery_status__type_support.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/srv/detail/load_package__description.c.o[0m
+[ 25%] [32m[1mLinking C shared library libwarehouse_interfaces__rosidl_generator_c.so[0m
+[ 25%] Built target warehouse_interfaces__rosidl_generator_c
+[ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 34%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/warehouse_interfaces/msg/delivery_status__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/warehouse_interfaces/srv/load_package__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/warehouse_interfaces/action/deliver__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/warehouse_interfaces/action/deliver__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/warehouse_interfaces/msg/delivery_status__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/warehouse_interfaces/srv/load_package__type_support.cpp.o[0m
+[ 49%] [32m[1mLinking CXX shared library libwarehouse_interfaces__rosidl_typesupport_c.so[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/msg/detail/delivery_status__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/load_package__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver__type_support.cpp.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/warehouse_interfaces/action/detail/deliver__type_support.c.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/warehouse_interfaces/msg/detail/delivery_status__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/warehouse_interfaces/srv/detail/load_package__type_support.c.o[0m
+[ 60%] Built target warehouse_interfaces__rosidl_typesupport_c
+[ 61%] [32m[1mLinking C shared library libwarehouse_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 61%] Built target warehouse_interfaces__rosidl_typesupport_introspection_c
+[ 63%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/warehouse_interfaces/action/detail/dds_fastrtps/deliver__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/warehouse_interfaces/srv/detail/dds_fastrtps/load_package__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/warehouse_interfaces/msg/detail/dds_fastrtps/delivery_status__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/warehouse_interfaces/action/detail/deliver__type_support_c.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/warehouse_interfaces/msg/detail/delivery_status__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/warehouse_interfaces/srv/detail/load_package__type_support_c.cpp.o[0m
+[ 74%] [32m[1mLinking CXX shared library libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 76%] [32m[1mLinking CXX shared library libwarehouse_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 76%] Built target warehouse_interfaces__rosidl_typesupport_introspection_cpp
+[ 78%] [32m[1mLinking CXX shared library libwarehouse_interfaces__rosidl_typesupport_cpp.so[0m
+[ 78%] Built target warehouse_interfaces__rosidl_typesupport_fastrtps_c
+[ 78%] Built target warehouse_interfaces__rosidl_typesupport_cpp
+[ 80%] [32m[1mLinking CXX shared library libwarehouse_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 80%] Built target warehouse_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 80%] Built target warehouse_interfaces
+[ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 81%] Built target warehouse_interfaces__py
+[ 83%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/srv/_load_package_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/msg/_delivery_status_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_s.c.o[0m
+[ 89%] [32m[1mLinking C shared library libwarehouse_interfaces__rosidl_generator_py.so[0m
+[ 89%] Built target warehouse_interfaces__rosidl_generator_py
+[ 90%] [32mBuilding C object CMakeFiles/warehouse_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/warehouse_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/warehouse_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] Built target warehouse_interfaces_s__rosidl_typesupport_c
+[100%] Built target warehouse_interfaces_s__rosidl_typesupport_fastrtps_c
+[100%] Built target warehouse_interfaces_s__rosidl_typesupport_introspection_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/ament_index/resource_index/rosidl_interfaces/warehouse_interfaces
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/msg/DeliveryStatus.json
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/srv/LoadPackage.json
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/action/Deliver.json
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/deliver.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__functions.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__struct.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__type_support.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/delivery_status.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__functions.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__struct.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__type_support.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__functions.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__struct.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__type_support.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/load_package.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/environment/library_path.sh
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/environment/library_path.dsv
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/deliver.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__builder.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__struct.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__traits.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__type_support.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/delivery_status.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__builder.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__struct.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__traits.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__type_support.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__builder.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__struct.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__traits.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__type_support.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/load_package.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/detail/delivery_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/load_package__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/environment/pythonpath.sh
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/environment/pythonpath.dsv
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/__init__.py
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/action/__init__.py
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/action/_deliver.py
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/action/_deliver_s.c
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/msg/__init__.py
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/msg/_delivery_status.py
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/msg/_delivery_status_s.c
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/srv/__init__.py
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/srv/_load_package.py
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/srv/_load_package_s.c
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_c.so
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_c.so
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/Cargo.toml
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/build.rs
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/src/action.rs
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/src/action/rmw.rs
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/src/lib.rs
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/src/msg.rs
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/src/msg/rmw.rs
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/src/srv.rs
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/rust/src/srv/rmw.rs
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/msg/DeliveryStatus.idl
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/srv/LoadPackage.idl
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/action/Deliver.idl
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/msg/DeliveryStatus.msg
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/srv/LoadPackage.srv
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/action/Deliver.action
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/ament_index/resource_index/package_run_dependencies/warehouse_interfaces
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/ament_index/resource_index/parent_prefix_path/warehouse_interfaces
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/environment/path.sh
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/environment/path.dsv
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/local_setup.bash
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/local_setup.sh
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/local_setup.zsh
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/local_setup.dsv
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/package.dsv
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/ament_index/resource_index/packages/warehouse_interfaces
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfacesConfig.cmake
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfacesConfig-version.cmake
+-- Symlinking: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/package.xml
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_generator_c.so" to ""
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_cpp.so" to ""
+Listing '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces'...
+Compiling '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/__init__.py'...
+Listing '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/action'...
+Compiling '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/action/__init__.py'...
+Compiling '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/action/_deliver.py'...
+Listing '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/msg'...
+Compiling '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/msg/__init__.py'...
+Compiling '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/msg/_delivery_status.py'...
+Listing '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/srv'...
+Compiling '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/srv/__init__.py'...
+Compiling '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages/warehouse_interfaces/srv/_load_package.py'...
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_pyExport-noconfig.cmake

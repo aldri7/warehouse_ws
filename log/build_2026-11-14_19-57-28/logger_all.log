@@ -1,0 +1,153 @@
+[0.096s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'warehouse_interfaces', '--symlink-install']
+[0.096s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['warehouse_interfaces'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d7d897e02f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d7d899f3b60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d7d899f3b60>>)
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.133s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aldrin/warehouse_ws'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_interfaces) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_interfaces) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_interfaces) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_interfaces) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_interfaces) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_interfaces) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_interfaces) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_interfaces) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/warehouse_interfaces' with type 'ros.ament_cmake' and name 'warehouse_interfaces'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_nodes) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_nodes) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_nodes) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_nodes) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_nodes) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_nodes) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_nodes) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_nodes) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/warehouse_nodes' with type 'ros.ament_python' and name 'warehouse_nodes'
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.182s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'warehouse_nodes' in 'src/warehouse_nodes'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'warehouse_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'warehouse_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'warehouse_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'warehouse_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'warehouse_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'warehouse_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'warehouse_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'warehouse_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'warehouse_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.182s] DEBUG:colcon.colcon_core.verb:Building package 'warehouse_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aldrin/warehouse_ws/build/warehouse_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aldrin/warehouse_ws/install/warehouse_interfaces', 'merge_install': False, 'path': '/home/aldrin/warehouse_ws/src/warehouse_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.183s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.184s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.184s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aldrin/warehouse_ws/src/warehouse_interfaces' with build type 'ament_cmake'
+[0.184s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aldrin/warehouse_ws/src/warehouse_interfaces'
+[0.186s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.186s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aldrin/warehouse_ws/build/warehouse_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/aldrin/warehouse_ws/src/warehouse_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aldrin/warehouse_ws/install/warehouse_interfaces
+[3.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aldrin/warehouse_ws/build/warehouse_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/aldrin/warehouse_ws/src/warehouse_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aldrin/warehouse_ws/install/warehouse_interfaces
+[3.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aldrin/warehouse_ws/build/warehouse_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/aldrin/warehouse_ws/build/warehouse_interfaces -- -j20 -l20
+[9.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aldrin/warehouse_ws/build/warehouse_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/aldrin/warehouse_ws/build/warehouse_interfaces -- -j20 -l20
+[9.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aldrin/warehouse_ws/build/warehouse_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/aldrin/warehouse_ws/build/warehouse_interfaces
+[10.587s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(warehouse_interfaces)
+[10.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aldrin/warehouse_ws/build/warehouse_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/aldrin/warehouse_ws/build/warehouse_interfaces
+[10.591s] Level 1:colcon.colcon_core.environment:checking '/home/aldrin/warehouse_ws/install/warehouse_interfaces' for CMake module files
+[10.592s] Level 1:colcon.colcon_core.environment:checking '/home/aldrin/warehouse_ws/install/warehouse_interfaces' for CMake config files
+[10.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_interfaces', 'cmake_prefix_path')
+[10.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/hook/cmake_prefix_path.dsv'
+[10.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/hook/cmake_prefix_path.sh'
+[10.594s] Level 1:colcon.colcon_core.environment:checking '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib'
+[10.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_interfaces', 'ld_library_path_lib')
+[10.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/hook/ld_library_path_lib.dsv'
+[10.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/hook/ld_library_path_lib.sh'
+[10.596s] Level 1:colcon.colcon_core.environment:checking '/home/aldrin/warehouse_ws/install/warehouse_interfaces/bin'
+[10.596s] Level 1:colcon.colcon_core.environment:checking '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/pkgconfig/warehouse_interfaces.pc'
+[10.598s] Level 1:colcon.colcon_core.environment:checking '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages'
+[10.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_interfaces', 'pythonpath')
+[10.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/hook/pythonpath.dsv'
+[10.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/hook/pythonpath.sh'
+[10.600s] Level 1:colcon.colcon_core.environment:checking '/home/aldrin/warehouse_ws/install/warehouse_interfaces/bin'
+[10.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/package.dsv'
+[10.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/package.sh'
+[10.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/package.bash'
+[10.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/package.zsh'
+[10.603s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/colcon-core/packages/warehouse_interfaces)
+[10.604s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(warehouse_interfaces)
+[10.604s] Level 1:colcon.colcon_core.environment:checking '/home/aldrin/warehouse_ws/install/warehouse_interfaces' for CMake module files
+[10.605s] Level 1:colcon.colcon_core.environment:checking '/home/aldrin/warehouse_ws/install/warehouse_interfaces' for CMake config files
+[10.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_interfaces', 'cmake_prefix_path')
+[10.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/hook/cmake_prefix_path.dsv'
+[10.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/hook/cmake_prefix_path.sh'
+[10.607s] Level 1:colcon.colcon_core.environment:checking '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib'
+[10.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_interfaces', 'ld_library_path_lib')
+[10.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/hook/ld_library_path_lib.dsv'
+[10.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/hook/ld_library_path_lib.sh'
+[10.608s] Level 1:colcon.colcon_core.environment:checking '/home/aldrin/warehouse_ws/install/warehouse_interfaces/bin'
+[10.608s] Level 1:colcon.colcon_core.environment:checking '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/pkgconfig/warehouse_interfaces.pc'
+[10.609s] Level 1:colcon.colcon_core.environment:checking '/home/aldrin/warehouse_ws/install/warehouse_interfaces/lib/python3.12/site-packages'
+[10.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_interfaces', 'pythonpath')
+[10.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/hook/pythonpath.dsv'
+[10.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/hook/pythonpath.sh'
+[10.610s] Level 1:colcon.colcon_core.environment:checking '/home/aldrin/warehouse_ws/install/warehouse_interfaces/bin'
+[10.610s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/package.dsv'
+[10.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/package.sh'
+[10.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/package.bash'
+[10.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/warehouse_interfaces/package.zsh'
+[10.613s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aldrin/warehouse_ws/install/warehouse_interfaces/share/colcon-core/packages/warehouse_interfaces)
+[10.613s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.613s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.613s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.613s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.619s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.619s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.619s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.641s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.641s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aldrin/warehouse_ws/install/local_setup.sh'
+[10.642s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aldrin/warehouse_ws/install/_local_setup_util_sh.py'
+[10.644s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aldrin/warehouse_ws/install/setup.sh'
+[10.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aldrin/warehouse_ws/install/local_setup.bash'
+[10.646s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aldrin/warehouse_ws/install/setup.bash'
+[10.647s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aldrin/warehouse_ws/install/local_setup.zsh'
+[10.648s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aldrin/warehouse_ws/install/setup.zsh'

@@ -1,0 +1,1 @@
+/home/aldrin/warehouse_ws/build/warehouse_interfaces/rosidl_generator_cpp/warehouse_interfaces/action/detail/deliver__struct.hpp

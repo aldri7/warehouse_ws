@@ -1,0 +1,8 @@
+{
+  "package_name": "warehouse_interfaces",
+  "non_idl_tuples": [
+    "/home/aldrin/warehouse_ws/src/warehouse_interfaces:msg/DeliveryStatus.msg",
+    "/home/aldrin/warehouse_ws/src/warehouse_interfaces:srv/LoadPackage.srv",
+    "/home/aldrin/warehouse_ws/src/warehouse_interfaces:action/Deliver.action"
+  ]
+}

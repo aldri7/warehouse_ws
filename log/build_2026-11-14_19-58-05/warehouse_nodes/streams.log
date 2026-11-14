@@ -1,0 +1,27 @@
+[1.082s] Invoking command in '/home/aldrin/warehouse_ws/build/warehouse_nodes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aldrin/warehouse_ws/build/warehouse_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aldrin/warehouse_ws/install/warehouse_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aldrin/warehouse_ws/build/warehouse_nodes/build --no-deps symlink_data
+[1.381s] running develop
+[1.547s] running egg_info
+[1.547s] creating warehouse_nodes.egg-info
+[1.565s] writing warehouse_nodes.egg-info/PKG-INFO
+[1.565s] writing dependency_links to warehouse_nodes.egg-info/dependency_links.txt
+[1.565s] writing entry points to warehouse_nodes.egg-info/entry_points.txt
+[1.565s] writing requirements to warehouse_nodes.egg-info/requires.txt
+[1.565s] writing top-level names to warehouse_nodes.egg-info/top_level.txt
+[1.565s] writing manifest file 'warehouse_nodes.egg-info/SOURCES.txt'
+[1.596s] reading manifest file 'warehouse_nodes.egg-info/SOURCES.txt'
+[1.596s] writing manifest file 'warehouse_nodes.egg-info/SOURCES.txt'
+[1.614s] running build_ext
+[1.614s] Creating /home/aldrin/warehouse_ws/install/warehouse_nodes/lib/python3.12/site-packages/warehouse-nodes.egg-link (link to .)
+[1.615s] Installing deliver_client script to /home/aldrin/warehouse_ws/install/warehouse_nodes/lib/warehouse_nodes
+[1.615s] Installing deliver_server script to /home/aldrin/warehouse_ws/install/warehouse_nodes/lib/warehouse_nodes
+[1.615s] Installing warehouse__publisher script to /home/aldrin/warehouse_ws/install/warehouse_nodes/lib/warehouse_nodes
+[1.615s] Installing warehouse__subscriber script to /home/aldrin/warehouse_ws/install/warehouse_nodes/lib/warehouse_nodes
+[1.615s] 
+[1.616s] Installed /home/aldrin/warehouse_ws/build/warehouse_nodes
+[1.616s] running symlink_data
+[1.616s] creating /home/aldrin/warehouse_ws/install/warehouse_nodes/share/ament_index
+[1.616s] creating /home/aldrin/warehouse_ws/install/warehouse_nodes/share/ament_index/resource_index
+[1.616s] creating /home/aldrin/warehouse_ws/install/warehouse_nodes/share/ament_index/resource_index/packages
+[1.616s] symbolically linking /home/aldrin/warehouse_ws/build/warehouse_nodes/resource/warehouse_nodes -> /home/aldrin/warehouse_ws/install/warehouse_nodes/share/ament_index/resource_index/packages
+[1.616s] symbolically linking /home/aldrin/warehouse_ws/build/warehouse_nodes/package.xml -> /home/aldrin/warehouse_ws/install/warehouse_nodes/share/warehouse_nodes
+[1.649s] Invoked command in '/home/aldrin/warehouse_ws/build/warehouse_nodes' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aldrin/warehouse_ws/build/warehouse_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aldrin/warehouse_ws/install/warehouse_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aldrin/warehouse_ws/build/warehouse_nodes/build --no-deps symlink_data

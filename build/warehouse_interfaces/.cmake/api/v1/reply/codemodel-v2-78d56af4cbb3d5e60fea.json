@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-99a8d3da00ca72b6bad8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "warehouse_interfaces__py",
+					"jsonFile" : "directory-warehouse_interfaces__py-9955b1ca75f956af706f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/aldrin/warehouse_ws/build/warehouse_interfaces/warehouse_interfaces__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "warehouse_interfaces__rs",
+					"jsonFile" : "directory-warehouse_interfaces__rs-ef458be0bcf5e79f7489.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/aldrin/warehouse_ws/build/warehouse_interfaces/warehouse_interfaces__rs",
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "warehouse_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_warehouse_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_warehouse_interfaces_egg-67fe0c73181f7797920a.json",
+					"name" : "ament_cmake_python_build_warehouse_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_warehouse_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_warehouse_interfaces-446514feb2df44144735.json",
+					"name" : "ament_cmake_python_symlink_warehouse_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-67bac71b4c1d553c45d9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warehouse_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warehouse_interfaces-71f2803db561b8fb8054.json",
+					"name" : "warehouse_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warehouse_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warehouse_interfaces__cpp-cbb96dd6ccf87f7a6013.json",
+					"name" : "warehouse_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "warehouse_interfaces__py::@a7094539c0347dc0362e",
+					"jsonFile" : "target-warehouse_interfaces__py-4b710726667d15afc719.json",
+					"name" : "warehouse_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warehouse_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warehouse_interfaces__rosidl_generator_c-cbd1608bdd642fcb470c.json",
+					"name" : "warehouse_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warehouse_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warehouse_interfaces__rosidl_generator_py-336b4f10810841abb1bf.json",
+					"name" : "warehouse_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warehouse_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warehouse_interfaces__rosidl_generator_type_description-9ca7a7cd95ecbb1ddf5e.json",
+					"name" : "warehouse_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warehouse_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warehouse_interfaces__rosidl_typesupport_c-7f682cbf90c8272ebec5.json",
+					"name" : "warehouse_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warehouse_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warehouse_interfaces__rosidl_typesupport_cpp-facfbfca49214ba94d98.json",
+					"name" : "warehouse_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warehouse_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warehouse_interfaces__rosidl_typesupport_fastrtps_c-08d388268207a6082bce.json",
+					"name" : "warehouse_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warehouse_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warehouse_interfaces__rosidl_typesupport_fastrtps_cpp-636a1daf2dabf0a8f9ea.json",
+					"name" : "warehouse_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warehouse_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warehouse_interfaces__rosidl_typesupport_introspection_c-8a56c51f7ca66ab45740.json",
+					"name" : "warehouse_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warehouse_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warehouse_interfaces__rosidl_typesupport_introspection_cpp-5a4723fc00c2cf6c4c20.json",
+					"name" : "warehouse_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "warehouse_interfaces__rs::@abaa598380562645cfc4",
+					"jsonFile" : "target-warehouse_interfaces__rs-abb0977b53ee55fc918a.json",
+					"name" : "warehouse_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warehouse_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warehouse_interfaces_s__rosidl_typesupport_c-f20423fb962fdbbdd1d0.json",
+					"name" : "warehouse_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warehouse_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warehouse_interfaces_s__rosidl_typesupport_fastrtps_c-09ccf1be7084eb4893ba.json",
+					"name" : "warehouse_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warehouse_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warehouse_interfaces_s__rosidl_typesupport_introspection_c-a73427a6fa5da576b97e.json",
+					"name" : "warehouse_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warehouse_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warehouse_interfaces_uninstall-2859a364ab7653180d80.json",
+					"name" : "warehouse_interfaces_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aldrin/warehouse_ws/build/warehouse_interfaces",
+		"source" : "/home/aldrin/warehouse_ws/src/warehouse_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

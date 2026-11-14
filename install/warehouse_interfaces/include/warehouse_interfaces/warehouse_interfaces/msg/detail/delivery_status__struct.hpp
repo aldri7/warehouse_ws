@@ -1,0 +1,1 @@
+/home/aldrin/warehouse_ws/build/warehouse_interfaces/rosidl_generator_cpp/warehouse_interfaces/msg/detail/delivery_status__struct.hpp

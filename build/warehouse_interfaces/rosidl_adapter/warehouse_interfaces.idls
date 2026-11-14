@@ -1,0 +1,3 @@
+/home/aldrin/warehouse_ws/build/warehouse_interfaces/rosidl_adapter/warehouse_interfaces:msg/DeliveryStatus.idl
+/home/aldrin/warehouse_ws/build/warehouse_interfaces/rosidl_adapter/warehouse_interfaces:srv/LoadPackage.idl
+/home/aldrin/warehouse_ws/build/warehouse_interfaces/rosidl_adapter/warehouse_interfaces:action/Deliver.idl
